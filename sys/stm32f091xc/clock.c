@@ -182,12 +182,11 @@ clock_adjust(void)
  * software clock tick and seconds counter.
  */
 void
-clock_isr(void)
+SysTick_Handler(void)
 {
   update_ticks();
 }
 /*---------------------------------------------------------------------------*/
-
 /**
  * @}
  * @}

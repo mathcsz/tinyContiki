@@ -5,7 +5,7 @@
 #define STM32F091XC_CONF_H_
 
 #define RTIMER_ARCH_SECOND			32768
-#define CLOCK_CONF_SECOND  			1000//128
+#define CLOCK_CONF_SECOND  			128
 
 /* TODO: Define for implementation */
 #define CPU_MAIN_CLK				(48000 * 1024)
